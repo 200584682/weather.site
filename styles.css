@@ -1,0 +1,86 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #6dd5ed, #2193b0);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container */
+  .container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  /* Header */
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Input and Button */
+  input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background: #ff9a9e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #ff758c;
+  }
+  
+  /* Output */
+  #output {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #output h2 {
+    font-size: 1.8em;
+  }
+  
+  #output p {
+    font-size: 1.2em;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #ff9a9e;
+    text-decoration: none;
+  }
+  
